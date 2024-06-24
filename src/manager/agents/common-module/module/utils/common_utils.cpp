@@ -62,10 +62,7 @@ void CommonUtils::InitParametersMap()
       {CommandsConstantsFlags::CLASS, keynodes::ScComponentManagerKeynodes::rrel_class},
       {CommandsConstantsFlags::EXPLANATION, keynodes::ScComponentManagerKeynodes::rrel_explanation},
       {CommandsConstantsFlags::IDTF, keynodes::ScComponentManagerKeynodes::rrel_components},
-      {CommandsConstantsFlags::SET, keynodes::ScComponentManagerKeynodes::rrel_sets},
-      {CommandConstants::COMPONENTS_COMMAND_SEARCH, keynodes::ScComponentManagerKeynodes::action_components_search},
-      {CommandConstants::COMPONENTS_COMMAND_INSTALL, keynodes::ScComponentManagerKeynodes::action_components_install},
-      {CommandConstants::COMPONENTS_COMMAND_INIT, keynodes::ScComponentManagerKeynodes::action_components_init}};
+      {CommandsConstantsFlags::SET, keynodes::ScComponentManagerKeynodes::rrel_sets}};
 
   mainFlagWithSubFlags = {
       {"rrel_1",
